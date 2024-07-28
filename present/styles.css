@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color: #ff9cc3;
+    font-family: "Fredoka", sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    overflow-x: hidden; /* Prevent horizontal scroll on body */
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    max-width: 800px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin-top: 40px; /* Add margin to the top */
+    margin-bottom: 20px;
+}
+
+.image-container {
+    overflow-x: auto; /* Enable horizontal scroll */
+    white-space: nowrap; /* Prevent images from wrapping */
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ff3366;
+}
+
+.scrollable-images img {
+    display: inline-block;
+    height: 600px; /* Set a consistent height for all images */
+    width: auto; /* Maintain aspect ratio */
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-top: 20px; /* Add margin to the top of the images */
+}
+
+.content h1 {
+    color: #ff3366;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.content p {
+    margin-top: 25px;
+    color: #333;
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
